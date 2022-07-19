@@ -1,3 +1,10 @@
+:root {
+  --primary: #64A6BD;
+  --secondary: #90A8C3;
+  --tertiary: #ADA7C9;
+  --quarnary: #D7B9D5;
+  --quinary: #F4CAE0;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +42,65 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.about-title {
+  margin: 20px auto;
+  padding: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 50px;
+  background-color: var(--primary);
+  color: var(--quinary);
+}
+
+.nav-bar {
+  list-style-type: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0;
+  padding-right: 50px;
+
+}
+
+.nav-bar li {
+  display: inline;
+  padding: 5px;
+  float: right;
+  margin-left: 0px;
+  
+  
+}
+
+.nav-bar li a {
+  text-decoration: none;
+  color: var(--secondary);
+  margin-left: 50px;
+
+}
+
+.nav-bar li a:hover {
+  color: var(--quarnary);
+
+}
+
+.portfolio {
+  margin-top: 100px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  color: var(--secondary);
+
+}
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  margin: 0;
+  padding-left: 20px;
+  padding-bottom: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 20px;
+  color: var(--secondary);
 }
