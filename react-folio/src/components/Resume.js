@@ -1,9 +1,11 @@
 import { React } from 'react';
+import resumePic from '../assets/resume.png'
+
 
 function Resume() {
   return (
     <section className="resume">
-      <img className="resume-picture" src="https://user-images.githubusercontent.com/95983252/179659625-d3a9ff21-4e81-44b2-96ff-b2f32ff973f5.png"></img>
+        <img className="resume-picture" src={ resumePic } alt="Elyse's Resume"/>
     </section>
   );
 }
