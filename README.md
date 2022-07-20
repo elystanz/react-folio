@@ -13,12 +13,12 @@ This React.js portfolio is a simple site designed to be easily navigatable, upda
 
 In this portfolio, you will see a short biography, as I'm not a huge share-everything-online type! It is followed by a few of my favorite projects I had worked on through the duration of the course, and I plan to add more in a more visually pleasing fashion (once I get more well-acquainted with React). After, my resume is posted to the page. At the footer, you'll find links to my GitHub, LinkedIn profile, and my email address.
 
-IF you've cloned the repository, open your terminal and enter `npm i` to install all required dependencies. Run `npm start` to begin the server and view the portfolio!
+If you've cloned the repository, open your terminal and enter `npm i` to install all required dependencies. Run `npm start` to begin the server and view the portfolio!
 
 ## <a id="application">Application</a>
 Here is the application in use:
 
-
+![react-folio-gif](https://user-images.githubusercontent.com/95983252/179894601-309a6326-595e-4611-92ac-b8c5cf1d2407.gif)
 
 This application requires the following dependencies to run, which are already declared within the package.json file:
 
