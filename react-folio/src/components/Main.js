@@ -1,9 +1,22 @@
 import { React } from 'react';
+import Horiseon from '../assets/horiseonGif.gif';
+import Budget from '../assets/budgetTrackerGif.gif';
+import workDay from '../assets/workDayGif.gif';
+import passGen from '../assets/passwordGen.gif';
+
+
+
 
 function Main() {
   return (
-    <section className="portfolio">
-      <h1>portfolio will go here!</h1>
+    <section className="portfolio row">
+
+      <img className="horiseon column" src={ Horiseon } alt="Horiseon web application in use"/>
+      <img className="budget-tracker column" src={ Budget } alt="Budget Tracker web application in use"/>
+      <img className="work-day column" src={ workDay } alt="Work Day Scheduler web application in use"/>
+      <img className="password-gen column" src={ passGen } alt="Password Generator web application in use"/>
+
+
       
     </section>
   );

@@ -7,7 +7,6 @@ function Nav() {
         <li><a href="/">bio</a></li>
         <li><a href="/">portfolio</a></li>
         <li><a href="/">resume</a></li>
-        <li><a href="/">contact</a></li>
       </ul>
       
     </nav>
