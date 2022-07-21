@@ -112,6 +112,11 @@
 
 }
 
+.inspo-co img{
+  scale: 0.5;
+
+}
+
 .row img {
   width:  400px;
   height: 250px;
