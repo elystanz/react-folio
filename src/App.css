@@ -114,7 +114,14 @@
 
 .inspo-co img{
   scale: 0.5;
+  margin-top: 20px;
+  opacity: 0.5;
+  border-radius: 15%;
 
+}
+
+.inspo-co img:hover {
+  opacity: 1;
 }
 
 .row img {
