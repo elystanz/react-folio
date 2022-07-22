@@ -9,7 +9,7 @@ import Inspo from '../assets/inspo-co.png';
 function Main() {
   return (
     <section >
-            <img className="inpso-co column" src={ Inspo } alt="Inspo.co logo" href="https://inspo-co.herokuapp.com/"/>
+            <img className="inspo-co column" src={ Inspo } alt="Inspo.co logo" href="https://inspo-co.herokuapp.com/"/>
 
 <div className="portfolio row">
       <img className="horiseon column" src={ Horiseon } alt="Horiseon web application in use"/>
